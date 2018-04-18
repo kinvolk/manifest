@@ -11,40 +11,40 @@
   <project groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="259c2eebc32df77c016974d5e8eed390d5a81500" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="d07564b459b8e61d2a584b2502c7e90afa139537" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="3e087bebd7df44e9f0962e5de7a0e7b1c2a427e5" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="dbc26943853ff3a84060bd55ecf963e58e8c4c70" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/chromite" path="chromite" revision="d4da7757e4436a12d0786efa1b62a69d0c0c0d50" upstream="refs/heads/master">
+  <project groups="minilayout" name="flatcar-linux/baselayout" path="src/third_party/baselayout" revision="653216769703172ad30dfaa4ed271ad1f8a21e92" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/bootengine" path="src/third_party/bootengine" revision="22139c09681201c3c2a260e732e728af92949251" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/chromite" path="chromite" revision="d4da7757e4436a12d0786efa1b62a69d0c0c0d50" upstream="refs/heads/build-1745.0.0">
     <copyfile dest="AUTHORS" src="AUTHORS"/>
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
-  <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="f1f0405491dfd073bbf074f7e374c9ef85600691" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="4530dd1f836da24167640f0d91586fb12d1f9ea0" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="238b7bb01d2c8347a4d2986cd0eec12f8cce04ff" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="1cb32a9414c6c6085519657dccaff18fe2a51dd7" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="2c1840c1b8350896d39668e4c1b4b6e130159718" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="aef33400e68e4cf56baee4ac97ac46c3b2328c42" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/grub" path="src/third_party/grub" revision="0863c013179c5addee289fb4037e6df39ca4e351" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/ignition" path="src/third_party/ignition" revision="5d40cf111adc7d33fe1b03eabbbbb9cbb6916122" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="19ecf75a44b5c985e4f3cb312caa19f776277cb9" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="1ade2778282c949548f8e56d2d28570a66d34daa" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="5b1c0868e3ba5c6e390da8401c3525c9f64a0797" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="78318a5760bea08ff5a76779a070c2c8fbea2939" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="42bec47544ad80d3e39342b11ea33da05ff9133d" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="7f1949e0aaf30977e5d5c0b271cea69047a96406" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="b84c860387d172337c6f3c53390f986a3923953c" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="31e5eb34b87435d40ee57b8f17efd06e9b8e475d" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="0f8ef1aa86c59fc6d54eadaffb248feaccd1018b" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="a1279931829306af9b8ba37486ab23d6f0cd1488" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="437a7a86a482348828423ffd016b379fb70b0445" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/systemd" path="src/third_party/systemd" revision="738ab7502afb7663d9aacdd73e79025aa7cd0a9b" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="f2222bcd601c86820565df07514f73ceeec12563" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/torcx" path="src/third_party/torcx" revision="aa55ecfead8d3d7771ecd52184dbc29a842080d6" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="1ac025c8f203889e129c7cb8c453c9ab57725352" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="7dc60831aaabda87384779424ee01c96f4ccd686" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="c00f87148bc547e0b476d5e47ffb95124af06698" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="7bacfba1469bf421a6128176d6d12ca1538ae813" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-metadata" path="src/third_party/coreos-metadata" revision="392057cb629bfefe36f9c7b099b3f24ff44009ab" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-overlay" path="src/third_party/coreos-overlay" revision="6ff6abf72a259a2fe36e61f5b754b98220146cc1" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/dev-util" path="src/platform/dev" revision="af6fb5c273dea71e30b634b8c17fc2b52a6bfb60" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/etcd" path="src/third_party/etcd" revision="2c1840c1b8350896d39668e4c1b4b6e130159718" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/etcdctl" path="src/third_party/etcdctl" revision="aef33400e68e4cf56baee4ac97ac46c3b2328c42" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/grub" path="src/third_party/grub" revision="0863c013179c5addee289fb4037e6df39ca4e351" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/ignition" path="src/third_party/ignition" revision="d698c1eeaa65ecc8229d19bf3efee2a923566aed" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/init" path="src/third_party/init" revision="380619439f9fb1a65a01eb7179f85203ad6317c7" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/locksmith" path="src/third_party/locksmith" revision="cf68fa135cc862b575b7403be320f3c5813c9b8b" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/mantle" path="src/third_party/mantle" revision="9dc2c89fa9e179db9fd0e97f479f6eeba3ba3b77" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/mayday" path="src/third_party/mayday" revision="78318a5760bea08ff5a76779a070c2c8fbea2939" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/nss-altfiles" path="src/third_party/nss-altfiles" revision="42bec47544ad80d3e39342b11ea33da05ff9133d" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/portage-stable" path="src/third_party/portage-stable" revision="7f1949e0aaf30977e5d5c0b271cea69047a96406" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/rkt" path="src/third_party/rkt" revision="b84c860387d172337c6f3c53390f986a3923953c" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/scripts" path="src/scripts" revision="3a3462c2e5aacb5ebac2c053bb96ef282ee2155f" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="0f8ef1aa86c59fc6d54eadaffb248feaccd1018b" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/seismograph" path="src/third_party/seismograph" revision="a1279931829306af9b8ba37486ab23d6f0cd1488" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="437a7a86a482348828423ffd016b379fb70b0445" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/systemd" path="src/third_party/systemd" revision="738ab7502afb7663d9aacdd73e79025aa7cd0a9b" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/toolbox" path="src/third_party/toolbox" revision="f2222bcd601c86820565df07514f73ceeec12563" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/torcx" path="src/third_party/torcx" revision="aa55ecfead8d3d7771ecd52184dbc29a842080d6" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="1ac025c8f203889e129c7cb8c453c9ab57725352" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/update_engine" path="src/third_party/update_engine" revision="a576f95993be159f733da98b6792a2c9520f53ca" upstream="refs/heads/build-1745.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/updateservicectl" path="src/third_party/updateservicectl" revision="c00f87148bc547e0b476d5e47ffb95124af06698" upstream="refs/heads/build-1745.0.0"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
 </manifest>
