@@ -70,11 +70,6 @@ Your sources have been sync'd successfully.
            groups="minilayout"
            revision="refs/heads/flatcar-master" />
 
-  <project path="src/third_party/coreos-cloudinit"
-           name="flatcar-linux/coreos-cloudinit"
-           groups="minilayout"
-           revision="refs/heads/flatcar-master" />
-
   <project path="src/third_party/locksmith"
            name="flatcar-linux/locksmith"
            groups="minilayout"
@@ -130,8 +125,8 @@ Your sources have been sync'd successfully.
            groups="minilayout"
            revision="refs/heads/flatcar-master" />
 
-  <project path="src/third_party/coreos-metadata"
-           name="flatcar-linux/coreos-metadata"
+  <project path="src/third_party/afterburn"
+           name="flatcar-linux/afterburn"
            groups="minilayout"
            revision="refs/heads/flatcar-master" />
 
