@@ -41,24 +41,12 @@ Your sources have been sync'd successfully.
            groups="minilayout"
            revision="refs/heads/flatcar-master" />
 
-  <project path="src/third_party/etcd"
-           name="flatcar-linux/etcd"
-           groups="minilayout" />
-
   <project path="src/third_party/docker"
            name="flatcar-linux/docker"
            groups="minilayout" />
 
-  <project path="src/third_party/etcdctl"
-           name="flatcar-linux/etcdctl"
-           groups="minilayout" />
-
   <project path="src/third_party/seismograph"
            name="flatcar-linux/seismograph"
-           groups="minilayout" />
-
-  <project path="src/third_party/sysroot-wrappers"
-           name="flatcar-linux/sysroot-wrappers"
            groups="minilayout" />
 
   <project path="src/third_party/nss-altfiles"
