@@ -8,31 +8,31 @@
   
   <project groups="minilayout" name="appc/acbuild" path="src/third_party/appc-acbuild" revision="ce911a7227c81ac2edfa39b86ac1a55ba5ff3e1d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="259c2eebc32df77c016974d5e8eed390d5a81500" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="flatcar-linux/afterburn" path="src/third_party/afterburn" revision="d5c554576d94dc550f4b97ecd47b189f708023a4" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/baselayout" path="src/third_party/baselayout" revision="0d68ee5d1a77931d07f2886b2267cdce6942a7c5" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/bootengine" path="src/third_party/bootengine" revision="c72be37c298fbf52d5319973b617d194c6464c82" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="12fcb4a804f883b0e665132e7b0c81c19117a952" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/coreos-overlay" path="src/third_party/coreos-overlay" revision="162cb429352e7db1b3a8952166d6e77e805a2984" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/dev-util" path="src/platform/dev" revision="f6aa0796713fd739b99817d91abe3734c5bf4885" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/build-2275.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/afterburn" path="src/third_party/afterburn" revision="42faebdf74e9f3ef7b7fad4a367b7e69c5ef0025" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/baselayout" path="src/third_party/baselayout" revision="09def1874c47c32816a9ff2647a75717c81317bc" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/bootengine" path="src/third_party/bootengine" revision="913effbe0b03295d6706f22fcaa2b0298a5e0761" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="12fcb4a804f883b0e665132e7b0c81c19117a952" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-overlay" path="src/third_party/coreos-overlay" revision="e1d1436924a722542b9c751068b84311416fbb34" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/dev-util" path="src/platform/dev" revision="f6aa0796713fd739b99817d91abe3734c5bf4885" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/build-2275.99.0"/>
   <project groups="minilayout" name="flatcar-linux/fero" path="src/third_party/fero" revision="d69131ee1016933cb6681beade227a4aa53a282e" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="flatcar-linux/grub" path="src/third_party/grub" revision="c6b9a0af3d7483d5b5c5f79caf7ced64298bd4ac" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/ignition" path="src/third_party/ignition" revision="e55b2d3ba8c81201882f957ceb9ed08abbb0e5f9" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/init" path="src/third_party/init" revision="3a1b7eea7156e488ad4c435ca247719a157c81ea" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/locksmith" path="src/third_party/locksmith" revision="34791d0e58fa5deb835bf3d598238db2cb5dd3f7" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/mantle" path="src/third_party/mantle" revision="0124b4df5f8b271e5ed466f8a5575c6a0cac1239" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/mayday" path="src/third_party/mayday" revision="5e2b4bcb0743ff0105cd193a8d9e4ddc78088153" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/nss-altfiles" path="src/third_party/nss-altfiles" revision="42bec47544ad80d3e39342b11ea33da05ff9133d" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/portage-stable" path="src/third_party/portage-stable" revision="f87a74e9060d3d23860e6af619624cb1e83bc21f" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/scripts" path="src/scripts" revision="b84eb911e424afa2a08aa1ad5508114bebd47404" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="f516129af110fd4a51bd5ea2654f4dc8dd02e5c4" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/seismograph" path="src/third_party/seismograph" revision="edbe2360e9af362914868df0c7c1ace62e8e1778" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/build-2275.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/grub" path="src/third_party/grub" revision="9be3d609585010b7f52b1280339760578f7e988b" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/ignition" path="src/third_party/ignition" revision="5b2bd4b678135d33a528c0b15dec6df1486ceedf" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/init" path="src/third_party/init" revision="50cea9bc73e9e21456bc92d124f7b66cff2d35d0" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/locksmith" path="src/third_party/locksmith" revision="7d1c965918bf71ecac7da16327dee663951c42fe" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/mantle" path="src/third_party/mantle" revision="d09f25e122b997ecb75f02abd264d45834269be0" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/mayday" path="src/third_party/mayday" revision="5b8e9774a3319e4c1c4bf626cb55b948e778776a" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/nss-altfiles" path="src/third_party/nss-altfiles" revision="42bec47544ad80d3e39342b11ea33da05ff9133d" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/portage-stable" path="src/third_party/portage-stable" revision="2711221a75e3b7b5f6d819a5642e89780b03d0cb" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/scripts" path="src/scripts" revision="9b27cc8747a1817341bd6dcd93eb199531d3ff31" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="8223c89c9e973a05f469e99c3c47b30358a2ccdb" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/seismograph" path="src/third_party/seismograph" revision="edbe2360e9af362914868df0c7c1ace62e8e1778" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/build-2275.99.0"/>
   <project groups="minilayout" name="flatcar-linux/systemd" path="src/third_party/systemd" revision="1e5d2d656420d0e755dbcf72aeba3c3aba54e956" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="flatcar-linux/toolbox" path="src/third_party/toolbox" revision="c31d8ec584628ae6dc870195b27658f904c4ebee" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/torcx" path="src/third_party/torcx" revision="ad778f77b6410514aeb5d3aa3f00e2a00f988d54" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="79449498bdfbbf62e6290dc76732bda619eed37e" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/update_engine" path="src/third_party/update_engine" revision="1fa0a0ff5ef4d01eb2fb4ef4237294f6d47ec973" upstream="refs/heads/build-2275.0.0"/>
-  <project groups="minilayout" name="flatcar-linux/updateservicectl" path="src/third_party/updateservicectl" revision="7c4af8f9dda2b80f4e9a892ab4c9f6c58fb58451" upstream="refs/heads/build-2275.0.0"/>
+  <project groups="minilayout" name="flatcar-linux/toolbox" path="src/third_party/toolbox" revision="c31d8ec584628ae6dc870195b27658f904c4ebee" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/torcx" path="src/third_party/torcx" revision="52c0c6ee92f750c63c59815eaceef56608112811" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="0b8a20a00fc2f426681c7e7348a077cdbda4a88a" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/update_engine" path="src/third_party/update_engine" revision="1fa0a0ff5ef4d01eb2fb4ef4237294f6d47ec973" upstream="refs/heads/build-2275.99.0"/>
+  <project groups="minilayout" name="flatcar-linux/updateservicectl" path="src/third_party/updateservicectl" revision="f57ce23d9a510b7b28480077a26b9c8cfc7742c9" upstream="refs/heads/build-2275.99.0"/>
   <project groups="minilayout" name="rkt/rkt" path="src/third_party/rkt" revision="a2f63178ee7749a4e90a2882744774dbd03bb425" upstream="refs/heads/master"/>
 </manifest>
