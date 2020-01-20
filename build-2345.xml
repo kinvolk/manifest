@@ -12,7 +12,7 @@
   <project groups="minilayout" name="flatcar-linux/baselayout" path="src/third_party/baselayout" revision="8b87141250e3c6852a21a97b05e86f8a689c91f3" upstream="refs/heads/flatcar-build-2345.0.2"/>
   <project groups="minilayout" name="flatcar-linux/bootengine" path="src/third_party/bootengine" revision="1f5f3e31fa32fc61ee3f6ac64d2663b83b6396cf" upstream="refs/heads/flatcar-build-2345.0.2"/>
   <project groups="minilayout" name="flatcar-linux/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="60bc82921f7dd3d2b99cbbdc978f62481efe7724" upstream="refs/heads/flatcar-build-2345.0.2"/>
-  <project groups="minilayout" name="flatcar-linux/coreos-overlay" path="src/third_party/coreos-overlay" revision="c748f7e71bade922f1b4b811666e2ed35329cb4c" upstream="refs/heads/flatcar-build-2345.0.2"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-overlay" path="src/third_party/coreos-overlay" revision="effc2f1bba0d6ace343bbbf1dbb1be3583cb158b" upstream="refs/heads/flatcar-build-2345.0.2"/>
   <project groups="minilayout" name="flatcar-linux/dev-util" path="src/platform/dev" revision="a2bfffc17367a066d179a165d6c6d0e98db2f24c" upstream="refs/heads/flatcar-build-2345.0.2"/>
   <project groups="minilayout" name="flatcar-linux/docker" path="src/third_party/docker" revision="858969a9cc97a1836003a2c5c04103b8451026ad" upstream="refs/heads/flatcar-build-2345.0.2"/>
   <project groups="minilayout" name="flatcar-linux/fero" path="src/third_party/fero" revision="ad05d70483ca46a77392e7df9c9448b97436fc9b" upstream="refs/heads/flatcar-build-2345.0.2"/>
