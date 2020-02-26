@@ -1,5 +1,6 @@
-NAME=CoreOS
-ID=coreos
-ANSI_COLOR="1;32"
-HOME_URL="https://coreos.com/"
-BUG_REPORT_URL="https://github.com/coreos/bugs/issues"
+NAME="Flatcar Container Linux by Kinvolk"
+ID=flatcar
+ID_LIKE=coreos
+ANSI_COLOR="38;5;75"
+HOME_URL="https://flatcar-linux.org/"
+BUG_REPORT_URL="https://issues.flatcar-linux.org"
