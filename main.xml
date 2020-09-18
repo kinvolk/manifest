@@ -23,7 +23,7 @@
   <project groups="minilayout" name="flatcar-linux/mantle" path="src/third_party/mantle" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="flatcar-linux/mayday" path="src/third_party/mayday" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="flatcar-linux/nss-altfiles" path="src/third_party/nss-altfiles" revision="refs/heads/master" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="flatcar-linux/portage-stable" path="src/third_party/portage-stable" revision="refs/heads/main" upstream="refs/heads/main"/>
+  <project groups="minilayout" name="flatcar-linux/portage-stable" path="src/third_party/portage-stable" revision="refs/heads/vbatts/fips" upstream="refs/heads/main"/>
   <project groups="minilayout" name="flatcar-linux/scripts" path="src/scripts" revision="refs/heads/main" upstream="refs/heads/main"/>
   <project groups="minilayout" name="flatcar-linux/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="flatcar-linux/seismograph" path="src/third_party/seismograph" revision="refs/heads/master" upstream="refs/heads/master"/>
