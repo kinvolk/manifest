@@ -12,7 +12,7 @@
   <project groups="minilayout" name="flatcar-linux/baselayout" path="src/third_party/baselayout" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="flatcar-linux/bootengine" path="src/third_party/bootengine" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="flatcar-linux/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="refs/heads/master" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="flatcar-linux/coreos-overlay" path="src/third_party/coreos-overlay" revision="refs/heads/main" upstream="refs/heads/main"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-overlay" path="src/third_party/coreos-overlay" revision="refs/heads/vbatts/fips" upstream="refs/heads/main"/>
   <project groups="minilayout" name="flatcar-linux/dev-util" path="src/platform/dev" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="flatcar-linux/docker" path="src/third_party/docker" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="flatcar-linux/fero" path="src/third_party/fero" revision="refs/heads/master" upstream="refs/heads/master"/>
