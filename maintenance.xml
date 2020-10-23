@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <notice>Your sources have been sync'd successfully. Note that only the revisions for the coreos-overlay, scripts, and portage-stable repositories are relevant. Revisions for the other repositories are specified in the ebuild files.</notice>
+  <remote fetch=".." name="github"/>
+  <remote fetch="ssh://git@github.com" name="private"/>
+  
+  <default remote="github" revision="refs/heads/master" sync-j="4"/>
+  
+  <project groups="minilayout" name="appc/acbuild" path="src/third_party/appc-acbuild" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/afterburn" path="src/third_party/afterburn" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/baselayout" path="src/third_party/baselayout" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/bootengine" path="src/third_party/bootengine" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/coreos-overlay" path="src/third_party/coreos-overlay" revision="refs/heads/flatcar-2605" upstream="refs/heads/flatcar-2605"/>
+  <project groups="minilayout" name="flatcar-linux/dev-util" path="src/platform/dev" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/docker" path="src/third_party/docker" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/fero" path="src/third_party/fero" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/grub" path="src/third_party/grub" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/ignition" path="src/third_party/ignition" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/init" path="src/third_party/init" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/locksmith" path="src/third_party/locksmith" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/mantle" path="src/third_party/mantle" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/mayday" path="src/third_party/mayday" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/nss-altfiles" path="src/third_party/nss-altfiles" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/portage-stable" path="src/third_party/portage-stable" revision="refs/heads/flatcar-2605" upstream="refs/heads/flatcar-2605"/>
+  <project groups="minilayout" name="flatcar-linux/scripts" path="src/scripts" revision="refs/heads/flatcar-2605" upstream="refs/heads/flatcar-2605"/>
+  <project groups="minilayout" name="flatcar-linux/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/seismograph" path="src/third_party/seismograph" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/shim" path="src/third_party/shim" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/systemd" path="src/third_party/systemd" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/toolbox" path="src/third_party/toolbox" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/torcx" path="src/third_party/torcx" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/update_engine" path="src/third_party/update_engine" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="flatcar-linux/updateservicectl" path="src/third_party/updateservicectl" revision="refs/heads/master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="rkt/rkt" path="src/third_party/rkt" revision="refs/heads/master" upstream="refs/heads/master"/>
+</manifest>
