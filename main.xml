@@ -28,7 +28,6 @@
   <project groups="minilayout" name="kinvolk/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="kinvolk/seismograph" path="src/third_party/seismograph" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="kinvolk/shim" path="src/third_party/shim" revision="refs/heads/master" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="kinvolk/systemd" path="src/third_party/systemd" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="kinvolk/toolbox" path="src/third_party/toolbox" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="kinvolk/torcx" path="src/third_party/torcx" revision="refs/heads/master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="kinvolk/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="refs/heads/master" upstream="refs/heads/master"/>
