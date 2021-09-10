@@ -30,6 +30,6 @@
   <project groups="minilayout" name="flatcar-linux/toolbox" path="src/third_party/toolbox" revision="refs/heads/flatcar-master" upstream="refs/heads/flatcar-master"/>
   <project groups="minilayout" name="flatcar-linux/torcx" path="src/third_party/torcx" revision="refs/heads/flatcar-master" upstream="refs/heads/flatcar-master"/>
   <project groups="minilayout" name="flatcar-linux/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="refs/heads/master" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="flatcar-linux/update_engine" path="src/third_party/update_engine" revision="refs/heads/flatcar-master" upstream="refs/heads/flatcar-mmaster"/>
+  <project groups="minilayout" name="flatcar-linux/update_engine" path="src/third_party/update_engine" revision="refs/heads/flatcar-master" upstream="refs/heads/flatcar-master"/>
   <project groups="minilayout" name="flatcar-linux/updateservicectl" path="src/third_party/updateservicectl" revision="refs/heads/main" upstream="refs/heads/main"/>
 </manifest>
